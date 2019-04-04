@@ -1,0 +1,246 @@
+.blue-color{
+  color:#0069ff;
+}
+.mt-70{
+  margin-top:70px;
+}
+.mt-20{
+  margin-top:20px;
+}
+.mb-70{
+  margin-bottom:70px;
+}
+.blue-hover:hover{
+  color:#0069ff;
+}
+.blue{
+  background-color: #0069ff;
+}
+/* per togliere la sottolineatura ai link */
+a:hover{
+  text-decoration:none;
+}
+.white{
+  background-color: #f3f5f9;
+}
+
+/* per il container-fluid */
+.container-fluid {
+  padding:10px 30px;
+  background-color: white;
+  font-weight: bold;
+}
+/* per togliere il padding di default all'ul */
+.container-fluid .col-md-6 ul {
+  padding:0;
+  margin:0;
+}
+/* per mettere le li su una riga */
+.container-fluid .col-md-6 ul li{
+  display: inline-block;
+}
+/* per la scritta New */
+.container-fluid .col-md-6 .new-style{
+  padding: 4px 8px;
+  background-color: #00d7d2;
+  color: #031b4e;
+  border-radius:5px;
+}
+/* per il colore di General Purpose.. e di Docs, Support, Sales e Log in */
+.container-fluid .col-md-6 blue-hover, .container-fluid .col-md-6 a{
+  color:#5b6987;
+}
+/* per separare Docs, Support, Sales e Log in */
+.container-fluid .col-md-6 .ml-15{
+  margin-left:15px;
+}
+
+/* per il bottone Sign Up */
+.white-button{
+  font-weight:bold;
+  border:1px solid #0069ff;
+  font-size:14px;
+  padding: 11px 16px 8px;
+}
+/* quando passo sopra il mouse */
+.btn-default:hover{
+  color: white;
+  background-color: #0069ff;
+}
+/* per non lasciare margini tra navbar e la sezione */
+.navbar{
+  margin-bottom:0;
+}
+/* per la scritta DigitalOcean */
+.navbar-default .navbar-brand{
+  color:#0069ff;
+}
+/* per il colore delle scritte Marketplace, Customers, Partners.. */
+.navbar-default .navbar-nav>li>a{
+  color:#031b4e;
+}
+/* quando passo sopra il mouse */
+.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-brand:hover{
+  color:#0069ff;
+}
+
+/* per la prima sezione, per le colonne */
+.first .col-md-6, .first .col-md-4{
+  position:relative;
+  height:600px;
+}
+/* per il titolo h1 e il paragrafo p */
+.first .col-md-6 h1, .col-md-6 p{
+  color:white;
+}
+/* per il titolo h1 */
+.first .col-md-6 h1{
+  font-size:62px;
+  font-weight: bold;
+  margin-top:0;
+}
+/* per la prima colonna e la seconda */
+.first .col-md-6 .dev-cloud, .first .col-md-4 .deploy, .first .col-md-4 i{
+  position:absolute;
+  top:50%;
+  transform: translateY(-50%);
+}
+/* per il colore di Deploy in seconds */
+.first .col-md-4 h2{
+  color:#031b4e;
+  font-weight:bold;
+}
+/* per il p */
+.first .col-md-6 p{
+  font-size:24px;
+}
+/* per l'h2 */
+.first .col-md-6 h2{
+  font-size:30px;
+}
+/* per la seconda colonna */
+.first .col-md-4 .deploy{
+  background-color:white;
+  padding:32px;
+  border-radius:5px;
+}
+/* per il form */
+.first .form-control{
+  height:48px;
+  padding:0 16px;
+  margin:16px 0;
+}
+/* per il bottone Create your account */
+.first .col-md-4 .green-button{
+  color:#fff;
+  background-color: #15cd72;
+  width:100%;
+}
+/* quando passo sopra il mouse */
+.first .col-md-4 .green-button:hover{
+  background-color:#0cb863;
+}
+/* Per il colore del bottone Sign up with Google e il paragrafo piccolo sotto */
+.first .col-md-4 .white-button, .first .col-md-4 small{
+  color:#757575;
+}
+/* per il bottone Sign up with Google */
+.first .col-md-4 .white-button{
+  width:100%;
+  box-shadow: 0 0 1px rgba(0,0,0,.12), 0 1px 1px rgba(0,0,0,.24);
+  border:white;
+  position:relative;
+  margin:16px 0;
+}
+/* quando passo il mouse sopra */
+.first .col-md-4 .white-button:hover{
+  background-color: #eee;
+}
+/* per l'icona Google */
+.first .col-md-4 i{
+  color:orange;
+  left:10px;
+}
+/* per la sottolineatura  Terms of Service */
+.first .col-md-4 .blue-color{
+  text-decoration: underline;
+}
+
+/* seconda sezione, INNOVATIVE BUSINESSES TRUST DIGITALOCEAN */
+.second .col-md-12 h2{
+  font-size:14px;
+  color: rgba(3,27,78,.7);
+}
+/* per le immagini */
+.second .col-md-2 img{
+  width:100%;
+  height:70px;
+}
+.second .col-md-2{
+  padding:0px 32px;
+}
+/* per View customer stories > */
+.second .col-md-12 .blue-color{
+  font-weight: bold;
+}
+
+/* per i titoli h2 sella sezione 3 e 4 */
+.third .col-md-10 h2, .fourth .col-md-10 h2{
+  font-size:36px;
+}
+/* per il colore dei paragrafi */
+.third .col-md-10 p,
+.fourth .col-md-10 p,
+.third .col-md-4 p{
+  color:rgba(3,27,78,.7);
+}
+/* per il paragrafo della terza e quarta sezione */
+.third .col-md-10 p,
+.fourth .col-md-10 .p20{
+  font-size: 20px;
+}
+/* per l'h3 */
+.third .col-md-4 h3{
+  font-size:18px;
+}
+/* per l'icona DigitalOcean */
+.third i{
+  color:#0069ff;
+}
+/* per i titoli h2 e h3 */
+.third .col-md-10 h2,
+.fourth .col-md-10 h2,
+.third .col-md-4 h3{
+  color:#031b4e;
+  font-weight: bold;
+}
+/* per l'immagine della quarta sezione */
+.fourth img{
+  width:80%;
+  height:auto;
+  margin:20px 10%;
+}
+
+
+@media (max-width: 768px) {
+  header{
+    display:none;
+  }
+  .row{
+    margin-right:0;
+  }
+}
+@media (min-width:768px) and (max-width: 992px){
+  .second img{
+    width:100%;
+    height:auto;
+  }
+  header{
+    display: none;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  header{
+    display:none;
+  }
+}
