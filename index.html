@@ -3,70 +3,72 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>DigitalOcean</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-6">
-            <ul>
-              <li><a href="#"><small class="new-style">New</small></a></li>
-              <li><a href="#"><small class="blue-hover">General Purpose Droplets VMs now supporting a wider range of production workloads.</small> <small> ></small></a></li>
-            </ul>
-          </div>
-          <div class="col-md-6 text-right">
-            <ul>
-              <li><a class="ml-15" href="#">Docs</a></li>
-              <li><a class="ml-15" href="#">Support</a></li>
-              <li><a class="ml-15" href="#">Sales</a></li>
-              <li><a class="ml-15" href="#">Log in</a></li>
-            </ul>
+    <div class="fixed">
+      <!-- prima riga, header -->
+      <header>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <ul>
+                <li><a href="#"><small class="new-style">New</small></a></li>
+                <li><a href="#"><small class="blue-hover">General Purpose Droplets VMs now supporting a wider range of production workloads.</small> <small> ></small></a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 text-right">
+              <ul>
+                <li><a class="ml-15" href="#">Docs</a></li>
+                <li><a class="ml-15" href="#">Support</a></li>
+                <li><a class="ml-15" href="#">Sales</a></li>
+                <li><a class="ml-15" href="#">Log in</a></li>
+              </ul>
+            </div>
           </div>
         </div>
+      </header>
 
-      </div>
+      <!-- navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><i class="fab fa-digital-ocean"></i> DigitalOcean</a>
+          </div>
 
-    </header>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+              </li>
+              <li><a href="#">Marketplace</a></li>
+              <li><a href="#">Customers</a></li>
+              <li><a href="#">Partners</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community <span class="caret"></span></a>
+              </li>
+              <li><a href="#">Pricing</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><button type="button" class="btn btn-default blue-color navbar-btn white-button">Sign Up</button></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </div>
 
-
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"><i class="fab fa-digital-ocean"></i> DigitalOcean</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
-            </li>
-            <li><a href="#">Marketplace</a></li>
-            <li><a href="#">Customers</a></li>
-            <li><a href="#">Partners</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community <span class="caret"></span></a>
-            </li>
-            <li><a href="#">Pricing</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><button type="button" class="btn btn-default blue-color navbar-btn white-button">Sign Up</button></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
-
+    <!-- prima sezione Welcome to the developer cloud -->
     <section class="first blue">
       <div class="container">
         <div class="row">
@@ -96,6 +98,7 @@
       </div>
     </section>
 
+    <!-- seconda sezione INNOVATIVE BUSINESSES TRUST DIGITALOCEAN -->
     <section class="second white">
       <div class="container">
         <div class="row text-center mt-70">
@@ -131,12 +134,13 @@
       </div>
     </section>
 
+    <!-- terza sezione Deploy and scale seamlessly -->
     <section class="third">
       <div class="container">
         <div class="row mt-70">
-          <div class="col-md-10 col-sm-12 col-xs-12 col-md-offset-1 text-center">
+          <div class="col-md-12 col-sm-12 col-xs-12 text-center">
             <h2>Deploy and scale seamlessly</h2>
-            <p>Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+            <p class="p-20">Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
           </div>
         </div>
         <div class="row mt-20">
@@ -152,7 +156,7 @@
           </div>
         </div>
         <div class="row mt-20 mb-70">
-          <div class="col-md-4  col-sm-6 col-xs-12 col-md-offset-2">
+          <div class="col-md-4 col-sm-6 col-xs-12 col-md-offset-2">
             <i class="fab fa-digital-ocean fa-2x"></i>
             <h3>1-Click apps</h3>
             <p>Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.</p>
@@ -166,17 +170,313 @@
       </div>
     </section>
 
+    <!-- quarta sezione Designed for developers -->
     <section class="fourth white">
       <div class="container">
         <div class="row mt-70 mb-70">
-          <div class="col-md-10 col-sm-12 col-xs-12 col-md-offset-1 text-center">
+          <div class="col-md-8 col-sm-12 col-xs-12 col-md-offset-2 text-center">
             <h2>Designed for developers</h2>
-            <p class="p20">Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
+            <p class="p-20">Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
             <img src="https://www.digitalocean.com/assets/media/homepage/screenshot-create-droplet-5ad845ca.jpg" alt="">
             <p>Create compute servers in 55 seconds or less.</p>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- quinta sezione The features your business needs -->
+    <section class="fifth">
+      <div class="container">
+        <div class="row mt-70 mb-70">
+          <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+            <h2>The features your business needs</h2>
+          </div>
+          <div class="col-md-4 mt-20 col-sm-4 col-xs-12">
+            <i class="fab fa-digital-ocean fa-2x"></i>
+            <h4>Predictable pricing</h4>
+            <p>Leave complex pricing structures behind. Always know what you’ll pay per month with a flat, industry-leading pricing structure.</p>
+            <a class="blue-color" href="#">Pricing ></a>
+          </div>
+          <div class="col-md-4 mt-20 col-sm-4 col-xs-12">
+            <i class="fab fa-digital-ocean fa-2x"></i>
+            <h4>World-class service</h4>
+            <p>Free round-the-clock technical support for all customers. You’ll feel the love.</p>
+            <a class="blue-color" href="#">Support ></a>
+          </div>
+          <div class="col-md-4 mt-20 col-sm-4 col-xs-12">
+            <i class="fab fa-digital-ocean fa-2x"></i>
+            <h4>Reliable platform</h4>
+            <p>More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
+            <a class="blue-color" href="#">Security ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- sesta sezione Service your customers around the world from 12 regions. -->
+    <section class="sixth dark-blue">
+      <div class="container">
+        <div class="row mt-70 mb-70 text-center">
+          <div class="col-md-6 col-xs-12 col-md-offset-3">
+            <h2>Service your customers around the world from 12 regions.</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="col-md-2 col-sm-3  col-xs-3">
+              <p>AMS2</p>
+            </div>
+            <div class="col-md-7 col-sm-6 col-xs-6">
+              <p>Amsterdam, Netherlands</p>
+            </div>
+            <div class="col-md-3 col-sm-3 text-right col-xs-3">
+              <a href="#">Test speed ></a>
+            </div>
+            <hr>
+          </div>
+          <div class="col-md-6 col-xs-12">
+            <div class="col-md-2 col-sm-3 col-xs-3">
+              <p>NYC2</p>
+            </div>
+            <div class="col-md-7 col-xs-6 col-xs-6">
+              <p>New York, USA</p>
+            </div>
+            <div class="col-md-3 text-right col-sm-3 col-xs-3">
+              <a href="#">Test speed ></a>
+            </div>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-xs-12">
+            <div class="col-md-2 col-sm-3 col-xs-3">
+              <p>AMS3</p>
+            </div>
+            <div class="col-md-7 col-xs-6 col-xs-6">
+              <p>Amsterdam, Netherlands</p>
+            </div>
+            <div class="col-md-3 text-right col-sm-3 col-xs-3">
+              <a href="#">Test speed ></a>
+            </div>
+            <hr>
+          </div>
+          <div class="col-md-6 col-xs-12">
+            <div class="col-md-2 col-sm-3 col-xs-3">
+              <p>NYC3</p>
+            </div>
+            <div class="col-md-7 col-xs-6 col-xs-6">
+              <p>New York, USA</p>
+            </div>
+            <div class="col-md-3 text-right col-sm-3 col-xs-3">
+              <a href="#">Test speed ></a>
+            </div>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-xs-12">
+            <div class="col-md-2 col-sm-3 col-xs-3">
+              <p>BLR1</p>
+            </div>
+            <div class="col-md-7 col-xs-6 col-xs-6">
+              <p>Bangalore, India</p>
+            </div>
+            <div class="col-md-3 text-right col-sm-3 col-xs-3">
+              <a href="#">Test speed ></a>
+            </div>
+            <hr>
+          </div>
+          <div class="col-md-6 col-xs-12">
+            <div class="col-md-2 col-sm-3 col-xs-3">
+              <p>SFO1</p>
+            </div>
+            <div class="col-md-7 col-xs-6 col-xs-6">
+              <p>San Francisco, USA</p>
+            </div>
+            <div class="col-md-3 text-right col-sm-3 col-xs-3">
+              <a href="#">Test speed ></a>
+            </div>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-xs-12">
+            <div class="col-md-2 col-sm-3 col-xs-3">
+              <p>FRA1</p>
+            </div>
+            <div class="col-md-7 col-xs-6 col-xs-6">
+              <p>Frankfurt, Germany</p>
+            </div>
+            <div class="col-md-3 text-right col-sm-3 col-xs-3">
+              <a href="#">Test speed ></a>
+            </div>
+            <hr>
+          </div>
+          <div class="col-md-6 col-xs-12">
+            <div class="col-md-2 col-sm-3 col-xs-3">
+              <p>SFO2</p>
+            </div>
+            <div class="col-md-7 col-xs-6 col-xs-6">
+              <p>San Francisco, USA</p>
+            </div>
+            <div class="col-md-3 text-right col-sm-3 col-xs-3">
+              <a href="#">Test speed ></a>
+            </div>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-xs-12">
+            <div class="col-md-2 col-sm-3 col-xs-3">
+              <p>LON1</p>
+            </div>
+            <div class="col-md-7 col-xs-6 col-xs-6">
+              <p>London, UK</p>
+            </div>
+            <div class="col-md-3 text-right col-sm-3 col-xs-3">
+              <a href="#">Test speed ></a>
+            </div>
+            <hr>
+          </div>
+          <div class="col-md-6 col-xs-12">
+            <div class="col-md-2 col-sm-3 col-xs-3">
+              <p>SPG1</p>
+            </div>
+            <div class="col-md-7 col-xs-6 col-xs-6">
+              <p>Singapore</p>
+            </div>
+            <div class="col-md-3 text-right col-sm-3 col-xs-3">
+              <a href="#">Test speed ></a>
+            </div>
+            <hr>
+          </div>
+        </div>
+        <div class="row mb-70">
+          <div class="col-md-6 col-xs-12">
+            <div class="col-md-2 col-sm-3 col-xs-3">
+              <p>NYC1</p>
+            </div>
+            <div class="col-md-7 col-xs-6 col-xs-6">
+              <p>New York, USA</p>
+            </div>
+            <div class="col-md-3 text-right col-sm-3 col-xs-3">
+              <a href="#">Test speed ></a>
+            </div>
+          </div>
+          <div class="col-md-6 col-xs-12">
+            <div class="col-md-2 col-sm-3 col-xs-3">
+              <p>TOR1</p>
+            </div>
+            <div class="col-md-7 col-xs-6 col-xs-6">
+              <p>Toronto, Canada</p>
+            </div>
+            <div class="col-md-3 text-right col-sm-3 col-xs-3">
+              <a href="#">Test speed ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- settima sezione Development teams love DigitalOcean -->
+    <section class="seventh white">
+      <div class="container">
+        <div class="row mt-70 mb-70">
+          <div class="col-md-8 col-sm-12 col-xs-12 col-md-offset-2 text-center">
+            <h2>Development teams love DigitalOcean</h2>
+            <img src="https://assets.pcmag.com/media/images/514101-digitalocean-logo.jpg?width=333&height=245" alt="">
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ottava sezione Get started now. -->
+    <section class="eighth blue">
+      <div class="container">
+        <div class="row mt-70 mb-70 text-center">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <h2>Get started now.</h2>
+            <button type="button" class="mt-20 btn btn-default blue-color navbar-btn white-button">Create your account</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="row mt-70 mb-70">
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <a href="#"><i class="fab fa-digital-ocean fa-3x"></i></a>
+            <p class="mt-20">© 2019 DigitalOcean, LLC. All rights reserved.</p>
+            <a class="white-color" href="#">Proudly made in NY</a>
+            <ul>
+              <li><a class="white-color" href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a class="white-color" href="#"><i class="fab fa-facebook"></i></a></li>
+              <li><a class="white-color" href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a class="white-color" href="#"><i class="fab fa-youtube"></i></a></li>
+              <li><a class="white-color" href="#"><i class="fab fa-linkedin"></i></a></li>
+              <li><a class="white-color" href="#"><i class="fas fa-hourglass"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-12 col-xs-12">
+            <h5>Company</h5>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Leadership</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Partners</a></li>
+              <li><a href="#">Referral Program</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Legal & Security</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-12 col-xs-12">
+            <h5>Products</h5>
+            <ul>
+              <li><a href="#">Products Overview</a></li>
+              <li><a href="#">Droplets</a></li>
+              <li><a href="#">Managed Databases</a></li>
+              <li><a href="#">Spaces</a></li>
+              <li><a href="#">Kubernetes</a></li>
+              <li><a href="#">Marketplace</a></li>
+              <li><a href="#">Load Balancers</a></li>
+              <li><a href="#">Block Storage</a></li>
+              <li><a href="#">Tools & Integrations</a></li>
+              <li><a href="#">API</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Documentation</a></li>
+              <li><a href="#">Release Notes</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-12 col-xs-12">
+            <h5>Community</h5>
+            <ul>
+              <li><a href="#">Tutorials</a></li>
+              <li><a href="#">Meetups</a></li>
+              <li><a href="#">Q&A</a></li>
+              <li><a href="#">Write for DOnations</a></li>
+              <li><a href="#">Droplets for Demos</a></li>
+              <li><a href="#">Hatch Startup Program</a></li>
+              <li><a href="#">Shop Swag</a></li>
+              <li><a href="#">Research Program</a></li>
+              <li><a href="#">Currents Research</a></li>
+              <li><a href="#">Open Source</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-12 col-xs-12">
+            <h5>Contact</h5>
+            <ul>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Sales</a></li>
+              <li><a href="#">Report Abuse</a></li>
+              <li><a href="#">System Status</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

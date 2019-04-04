@@ -1,3 +1,13 @@
+body{
+  padding-top:119px;
+}
+/* per fissare le prime due righe in alto */
+.fixed{
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:1;
+}
 .blue-color{
   color:#0069ff;
 }
@@ -15,6 +25,9 @@
 }
 .blue{
   background-color: #0069ff;
+}
+.dark-blue{
+  background-color: #031b4e;
 }
 /* per togliere la sottolineatura ai link */
 a:hover{
@@ -84,13 +97,14 @@ a:hover{
   color:#0069ff;
 }
 
+
 /* per la prima sezione, per le colonne */
 .first .col-md-6, .first .col-md-4{
   position:relative;
   height:600px;
 }
 /* per il titolo h1 e il paragrafo p */
-.first .col-md-6 h1, .col-md-6 p{
+.first .col-md-6 h1, .first .col-md-6 p{
   color:white;
 }
 /* per il titolo h1 */
@@ -100,31 +114,37 @@ a:hover{
   margin-top:0;
 }
 /* per la prima colonna e la seconda */
-.first .col-md-6 .dev-cloud, .first .col-md-4 .deploy, .first .col-md-4 i{
+.first .col-md-6 .dev-cloud,
+.first .col-md-4 .deploy,
+.first .col-md-4 i{
   position:absolute;
   top:50%;
   transform: translateY(-50%);
 }
-/* per il colore di Deploy in seconds */
-.first .col-md-4 h2{
+/* per il colore di Deploy in seconds e INNOVATIVE BUSINESSES TRUST DIGITALOCEAN */
+.first .col-md-4 h2, .second .col-md-12 h2{
   color:#031b4e;
+}
+/* grassetto a Deploy in seconds e Pricing, Support e Security */
+.first .col-md-4 h2,
+.fifth .col-md-4 a{
   font-weight:bold;
 }
-/* per il p */
+/* per il p We make it simple to launch.. */
 .first .col-md-6 p{
   font-size:24px;
 }
-/* per l'h2 */
-.first .col-md-6 h2{
+/* per l'h2 Deploy in seconds */
+.first .col-md-4 h2{
   font-size:30px;
 }
-/* per la seconda colonna */
+/* per la seconda colonna della prima sezione */
 .first .col-md-4 .deploy{
   background-color:white;
   padding:32px;
   border-radius:5px;
 }
-/* per il form */
+/* per il form della prima sezione */
 .first .form-control{
   height:48px;
   padding:0 16px;
@@ -132,7 +152,7 @@ a:hover{
 }
 /* per il bottone Create your account */
 .first .col-md-4 .green-button{
-  color:#fff;
+  color:white;
   background-color: #15cd72;
   width:100%;
 }
@@ -166,10 +186,11 @@ a:hover{
   text-decoration: underline;
 }
 
+
 /* seconda sezione, INNOVATIVE BUSINESSES TRUST DIGITALOCEAN */
 .second .col-md-12 h2{
   font-size:14px;
-  color: rgba(3,27,78,.7);
+  opacity:.4;
 }
 /* per le immagini */
 .second .col-md-2 img{
@@ -179,68 +200,193 @@ a:hover{
 .second .col-md-2{
   padding:0px 32px;
 }
-/* per View customer stories > */
-.second .col-md-12 .blue-color{
+/* per View customer stories > e INNOVATIVE BUSINESSES TRUST DIGITALOCEAN */
+.second .col-md-12 .blue-color, .second .col-md-12 h2{
   font-weight: bold;
 }
 
-/* per i titoli h2 sella sezione 3 e 4 */
-.third .col-md-10 h2, .fourth .col-md-10 h2{
+/* per i titoli h2 sella sezione 3, 4, 5, 6, 7 */
+.third .col-md-12 h2,
+.fourth .col-md-8 h2,
+.fifth .col-md-12 h2,
+.sixth .col-md-6 h2
+.seventh .col-md-8 h2,
+.eighth .col-md-12 h2{
   font-size:36px;
 }
-/* per il colore dei paragrafi */
-.third .col-md-10 p,
-.fourth .col-md-10 p,
-.third .col-md-4 p{
+/* per il colore dei paragrafi della sezione 3, 4, 5 */
+.third .col-md-12 p,
+.third .col-md-4 p,
+.fourth .col-md-8 p,
+.fifth .col-md-4 p{
   color:rgba(3,27,78,.7);
 }
 /* per il paragrafo della terza e quarta sezione */
-.third .col-md-10 p,
-.fourth .col-md-10 .p20{
+.third .col-md-12 .p-20,
+.fourth .col-md-8 .p-20{
   font-size: 20px;
 }
-/* per l'h3 */
-.third .col-md-4 h3{
+/* per l'h3 e i paragrafi della sezione 3, i paragrafi e i link della sezione 5 */
+.third .col-md-4 h3, .third .col-md-4 p,
+.fifth .col-md-4 p, .fifth .col-md-4 a{
   font-size:18px;
 }
 /* per l'icona DigitalOcean */
-.third i{
+.third .col-md-4 i,
+.fifth .col-md-4 i,
+footer .col-md-4 .fa-digital-ocean{
   color:#0069ff;
 }
-/* per i titoli h2 e h3 */
-.third .col-md-10 h2,
-.fourth .col-md-10 h2,
-.third .col-md-4 h3{
+/* per i titoli h2 e h3 della sezione 3, gli h2 della sezione 4, 5 e 7, gli h4 dela sezione 5 */
+.third .col-md-12 h2,
+.third .col-md-4 h3,
+.fourth .col-md-8 h2,
+.fifth .col-md-12 h2,
+.fifth .col-md-4 h4,
+.seventh .col-md-8 h2{
   color:#031b4e;
   font-weight: bold;
 }
-/* per l'immagine della quarta sezione */
-.fourth img{
-  width:80%;
+/* per l'immagine della sezione 4 e 7 */
+.fourth .col-md-8 img, .seventh .col-md-8 img{
   height:auto;
-  margin:20px 10%;
+  margin:30px 10%;
+}
+/* immagine sezione 4 */
+.fourth .col-md-8 img{
+  width:80%;
+}
+/* immagine sezione 7 */
+.seventh .col-md-8 img{
+  width:60%;
+}
+
+/* per le linee */
+hr{
+  border:0.5px solid white;
+  opacity:.6;
+  width:100%;
+  margin:10px 0;
+}
+/* per l'h2 della sezione 6 */
+.sixth .col-md-6 h2,
+.sixth .col-md-2 p,
+.sixth .col-md-7 p,
+.eighth .col-md-12 h2{
+  font-weight:bold;
+  color:white;
+}
+/* per la grandezza del font nelle colonne 6 */
+.sixth .col-md-6{
+  font-size:13px;
+}
+/* per i paragrafi */
+.sixth .col-md-7 p{
+  opacity:.6;
+}
+/* per le scritte Test speed */
+.sixth .col-md-3 a{
+  color:#00d7d2;
+}
+.sixth .col-md-3 a:hover{
+  color:#0069ff;
+}
+/* per il bottone Create your account della sezione 8 */
+.eighth .col-md-12 .white-button{
+  padding:16px 32px;
+}
+.eighth .col-md-12 .white-button:hover{
+  background-color: white;
+  opacity:.8;
+  color: #0069ff;
+}
+
+
+footer{
+  background-color: #010e28;
+}
+/* per la prima colonna del footer */
+footer .col-md-4 p{
+  margin-bottom:0;
+}
+footer .col-md-4 p, footer .col-md-4 .white-color{
+  color:white;
+  opacity:.5;
+}
+footer .col-md-4 ul{
+  margin-top:30px;
+  padding:0;
+}
+footer .col-md-4 ul li{
+  display:inline-block;
+  margin-right:10px;
+  font-size:20px;
+}
+footer .col-md-4 a:hover,footer .col-md-2 ul li a:hover{
+  opacity:1;
+}
+/* per le altre colonne del footer */
+footer .col-md-2 h5{
+  font-size:16px;
+  color:white;
+}
+footer .col-md-2 ul{
+  padding:0;
+  list-style-type:none;
+}
+footer .col-md-2 ul li a{
+  color:white;
+  opacity:.5;
 }
 
 
 @media (max-width: 768px) {
+  body{
+    padding-top:0;
+  }
+  .fixed{
+    position:relative;
+  }
   header{
     display:none;
   }
   .row{
     margin-right:0;
   }
+  .fourth .col-md-8 img{
+    width:80%;
+  }
+  .seventh .col-md-8 img{
+    width:80%;
+  }
 }
 @media (min-width:768px) and (max-width: 992px){
-  .second img{
-    width:100%;
-    height:auto;
+  body{
+    padding-top:0;
+  }
+  .fixed{
+    position:relative;
   }
   header{
     display: none;
   }
+  .second .col-md-2 img{
+    width:100%;
+    height:auto;
+  }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
+  body{
+    padding-top:0;
+  }
+  .fixed{
+    position:relative;
+  }
   header{
     display:none;
+  }
+  .second .col-md-2 img{
+    width:100%;
+    height:auto;
   }
 }
