@@ -24,10 +24,10 @@ body{
   color:#0069ff;
 }
 .blue{
-  background-color: #0069ff;
+  background: #0248ff url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
 }
 .dark-blue{
-  background-color: #031b4e;
+  background: #031b4e url(https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg);
 }
 /* per togliere la sottolineatura ai link */
 a:hover{
@@ -262,11 +262,11 @@ footer .col-md-4 .fa-digital-ocean{
 }
 
 /* per le linee */
-hr{
-  border:0.5px solid white;
-  opacity:.6;
+.sixth .row hr{
   width:100%;
   margin:10px 0;
+  border:0.7px solid white;
+  opacity:.6;
 }
 /* per l'h2 della sezione 6 */
 .sixth .col-md-6 h2,
@@ -350,14 +350,20 @@ footer .col-md-2 ul li a{
   header{
     display:none;
   }
-  .row{
-    margin-right:0;
+  .first .col-md-6 .dev-cloud,
+  .first .col-md-4 .deploy{
+    position:relative;
+    top:0;
+    transform: none;
   }
-  .fourth .col-md-8 img{
-    width:80%;
+  .first .col-md-6,.first .col-md-4{
+    height:auto;
+    margin:20px 0;
   }
-  .seventh .col-md-8 img{
-    width:80%;
+  .fourth .col-md-8 img, .seventh .col-md-8 img{
+    height:auto;
+    margin:10px 0;
+    width:100%;
   }
 }
 @media (min-width:768px) and (max-width: 992px){
@@ -370,9 +376,24 @@ footer .col-md-2 ul li a{
   header{
     display: none;
   }
+  .first .col-md-6 .dev-cloud,
+  .first .col-md-4 .deploy{
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+  }
+  .first .col-md-6, .first .col-md-4{
+    position:relative;
+    height:600px;
+  }
   .second .col-md-2 img{
     width:100%;
     height:auto;
+  }
+  .fourth .col-md-8 img, .seventh .col-md-8 img{
+    height:auto;
+    margin:10px 0;
+    width:100%;
   }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -385,8 +406,23 @@ footer .col-md-2 ul li a{
   header{
     display:none;
   }
+  .first .col-md-6 .dev-cloud,
+  .first .col-md-4 .deploy{
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+  }
+  .first .col-md-6, .first .col-md-4{
+    position:relative;
+    height:600px;
+  }
   .second .col-md-2 img{
     width:100%;
     height:auto;
+  }
+  .fourth .col-md-8 img, .seventh .col-md-8 img{
+    height:auto;
+    margin:10px 0;
+    width:100%;
   }
 }
